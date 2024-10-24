@@ -14,30 +14,17 @@ let quotesArray = [
 console.log(quotesArray);
 
 function setQuote (){
-    let quote = quotesArray[Math.floor(Math.random() * quotesArray.length)]; /* to create a random quote */
-    // console.log(quote);
-    quoteText.textContent = quote; /* updates the h2 element with random quote*/
-//   button.addEventListener("click", quoteText); /* doesnt work*/
+    let quote = quotesArray[Math.floor(Math.random() * quotesArray.length)]; 
+    
+    quoteText.textContent = quote; 
 
 }
+setQuote(); 
 
-setQuote(); /* calling the function*/
 
 
-// ! when button is clicked, random quote is generated
-//  call the function  when clicking the button 
 
   button.addEventListener("click", setQuote);
 
 
-// ! Styling Elements using the DOM
-// quoteText= id of h2 element
-// quoteText.style.backgroundColor = "red";
-
-
-
-// !Append -dont need i think
-// quoteText.append(button); /*appended the button to the element*/
-// button.append(quotesArray[Math.floor(Math.random() * quotesArray.length)]); /* this appends the quote to the button*/
-// button.append(quotesArray); /* this appends all quotes to button*/
 
