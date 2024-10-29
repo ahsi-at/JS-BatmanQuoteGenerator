@@ -9,7 +9,8 @@ let quotesArray = [
     "A hero can be anyone.",
     "I fear dying in here, while my city burns, and there's no one there to save it.",
     "When the light hits the sky, it's not just a call. It's a  warning.",
-    "Sometimes the truth isn't good enough, sometimes people deserve more"
+    "Sometimes the truth isn't good enough, sometimes people deserve more.", 
+    "I am vengeance."
 ]
 console.log(quotesArray);
 
